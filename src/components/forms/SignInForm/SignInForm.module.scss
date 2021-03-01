@@ -1,0 +1,14 @@
+.formSignIn {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+   .inputStyleSignIn {
+    margin-bottom: 32px;
+  }
+}
+
+.inputStyleSignIn {
+  width: 500px;
+  height: 50px;
+}
+
