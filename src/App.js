@@ -10,7 +10,7 @@ const App = props => {
     <BrowserRouter>
       <Switch>
         {/* <Route path='/sign-up' component={} /> */}
-        <Route exact path='/signIn' component={SignInPage} />
+        <Route exact path={['/', '/signIn']} component={SignInPage} />
         <Route path='/signUp' component={SignUpPage} />
       </Switch>
     </BrowserRouter>

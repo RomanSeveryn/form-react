@@ -6,10 +6,10 @@ import styles from './HeaderSignIn.module.scss';
 const HeaderSignIn = () => {
   return (
     <div className={styles.containerHeaderSignIn}>
-      <div>
+      <div className={styles.padding}>
         <img src={logo} alt='logo' />
       </div>
-      <div>
+      <div className={styles.padding}>
         <Link to='/signUp' className={styles.linkHeaderSignIn}>
           SignUp
         </Link>

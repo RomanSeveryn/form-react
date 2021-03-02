@@ -10,7 +10,7 @@ const SignInPage = props => {
     <div className={styles.containerPageSignIn}>
       <HeaderSignIn />
 
-      <h1>LOGIN to your account</h1>
+      <h1 className={styles.headingSignInPage}>LOGIN to your account</h1>
 
       <SignInForm onSubmit={onSubmit} />
     </div>

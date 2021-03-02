@@ -31,9 +31,9 @@ const SignInForm = props => {
               placeholder='Password'
             />
             <Field
-              className={styles.inputStyleSignIn}
+              className={styles.fieldLoginStyleSignIn}
               type='submit'
-              value='Submit'
+              value='LOGIN'
             />
           </Form>
         );

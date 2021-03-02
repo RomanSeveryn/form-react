@@ -3,11 +3,20 @@
   flex-direction: column;
   max-width: 800px;
   .inputStyleSignIn {
-    margin-bottom: 32px;
+    margin-bottom: 38px;
   }
 }
 
 .inputStyleSignIn {
   width: 500px;
   height: 50px;
+  padding: 24px;
+}
+
+.fieldLoginStyleSignIn {
+  width: 500px;
+  height: 50px;
+  padding: 24px;
+  background-color: #28d2d0;
+  color: white;
 }
