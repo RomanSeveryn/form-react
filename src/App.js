@@ -1,9 +1,9 @@
-import logo from './logo.svg'
-import './App.css'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import SignInPage from './pages/SignIn'
-import SignUpPage from './pages/SignUp'
-import { SIGH_UP_SCHEMA } from './utils/validationShemas'
+import logo from './logo.svg';
+import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import SignInPage from './pages/SignIn';
+import SignUpPage from './pages/SignUp';
+import { SIGH_UP_SCHEMA } from './utils/validationShemas';
 
 const App = props => {
   return (
@@ -14,7 +14,7 @@ const App = props => {
         <Route path='/signUp' component={SignUpPage} />
       </Switch>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -3,7 +3,6 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import cx from 'classnames';
 import styles from './Input.module.scss';
 
-
 const Input = ({ name, ...rest }) => {
   return (
     <label>
