@@ -5,7 +5,7 @@ import styles from './Input.module.scss';
 
 const Input = ({ name, ...rest }) => {
   return (
-    <label>
+    <label className={styles.label}>
       <Field name={name}>
         {({ field, form, meta }) => {
           console.log(meta);
