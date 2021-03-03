@@ -10,7 +10,7 @@ const Input = ({ name, ...rest }) => {
         {({ field, form, meta }) => {
           console.log(meta);
 
-          const classNames = cx(styles.input, {
+          const classNames = cx(styles.input, styles.inputStyleSignIn, styles.inputStyleSignIn,{
             [styles.validInput]: meta.touched && !meta.error,
             [styles.errorInput]: meta.touched && meta.error,
           });

@@ -1,6 +1,9 @@
 .input {
   padding: 5px 10px;
   border: 5px solid grey;
+  .inputStyleSignIn {
+    margin-bottom: 38px;
+  }
 }
 
 .validInput {
@@ -15,10 +18,16 @@
   position: absolute;
   border: 2px solid red;
   padding: 8px 72px;
-  top: 65px;
+  top: 76px;
   left: 0px;
 }
 
 .label {
   position: relative;
+  margin-bottom: 42px;
+}
+
+.inputStyleSignIn {
+  width: 500px;
+  padding: 24px;
 }

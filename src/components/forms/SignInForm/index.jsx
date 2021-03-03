@@ -21,12 +21,12 @@ const SignInForm = props => {
         return (
           <Form className={styles.formSignIn}>
             <Input
-              className={styles.inputStyleSignIn}
+              // className={styles.inputStyleSignIn}
               name='email'
               placeholder='Email'
             />
             <Input
-              className={styles.inputStyleSignIn}
+              // className={styles.inputStyleSignIn}
               name='password'
               placeholder='Password'
             />
