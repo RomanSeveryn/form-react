@@ -1,7 +1,6 @@
 .input {
-  position: relative;
   padding: 5px 10px;
-  border: 1px solid grey;
+  border: 5px solid grey;
 }
 
 .validInput {
@@ -16,6 +15,10 @@
   position: absolute;
   border: 2px solid red;
   padding: 8px 72px;
-  top: 317px;
-  left: 710px;
+  top: 65px;
+  left: 0px;
+}
+
+.label {
+  position: relative;
 }
