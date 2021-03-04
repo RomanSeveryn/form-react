@@ -1,6 +1,6 @@
 .input {
   padding: 5px 10px;
-  border: 5px solid grey;
+  border: 3px solid gray;
   .inputStyleSignIn {
     margin-bottom: 38px;
   }
@@ -18,7 +18,7 @@
   position: absolute;
   border: 2px solid red;
   padding: 8px 72px;
-  top: 76px;
+  top: 72px;
   left: 0px;
 }
 
@@ -28,6 +28,7 @@
 }
 
 .inputStyleSignIn {
-  width: 500px;
+  min-width: 500px;
   padding: 24px;
+  outline: none;
 }
