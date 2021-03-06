@@ -1,3 +1,5 @@
+@import '../../../common/styles/breakpoints';
+
 .input {
   padding: 5px 10px;
   border: 3px solid gray;
@@ -31,4 +33,9 @@
   min-width: 500px;
   padding: 24px;
   outline: none;
+
+  @media screen and (max-width: $sm) {
+    min-width: 350px;
+    padding: 20px;
+  }
 }

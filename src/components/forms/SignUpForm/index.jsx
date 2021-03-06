@@ -1,7 +1,8 @@
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, Field } from 'formik';
 import React from 'react';
 import { SIGH_UP_SCHEMA } from '../../../utils/validationShemas';
 import Input from '../Input';
+import styles from './SignUpForm.module.scss';
 
 const initialsValues = {
   firstName: '',
@@ -24,7 +25,7 @@ const SignUpForm = props => {
       {formikProps => {
         console.log(formikProps);
         return (
-          <Form>
+          <Form className={styles.formSignUp}>
             <Input name='firstName' placeholder='First Name' />
             <Input name='lastName' placeholder='Last Name' />
             <Input name='displayName' placeholder='Display Name' />
