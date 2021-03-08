@@ -26,27 +26,35 @@ const SignUpForm = props => {
         console.log(formikProps);
         return (
           <Form className={styles.formSignUp}>
-            <Input name='firstName' placeholder='First Name' />
-            <Input name='lastName' placeholder='Last Name' />
-            <Input name='displayName' placeholder='Display Name' />
-            <Input name='email' placeholder='Email Address' />
-            <Input name='password' placeholder='Password' />
-            <Input name='passwordConfirm' placeholder='Password Confirmation' />
-            <Field type='submit' value='Submit' />
+            <Input className={styles.inputSignUp} name='firstName' placeholder='First Name' />
+            <Input className={styles.inputSignUp} name='lastName' placeholder='Last Name' />
+            <Input className={styles.inputSignUp} name='displayName' placeholder='Display Name' />
+            <Input className={styles.inputSignUp} name='email' placeholder='Email Address' />
+            <Input className={styles.inputSignUp} name='password' placeholder='Password' />
+            <Input className={styles.inputSignUp} name='passwordConfirm' placeholder='Password Confirmation' />
 
             <div role='group' aria-labelledby='my-radio-group'>
               <label>
-                <Field type='radio' name='picked' value='One' />
-                Join As a Buyer I am looking for a Name, Logo or Tagline for my
-                business, brand or product.
+                <div className={styles.radioButtonSignUp}>
+                  <Field type='radio' name='picked' value='One' />
+                Join As a Buyer
+                <span>I am looking for a Name, Logo or Tagline for my
+                business, brand or product.</span> 
+                </div>
+                
               </label>
+
               <label>
-                <Field type='radio' name='picked' value='Two' />
+                <div className={styles.radioButtonSignUp}>
+                  <Field type='radio' name='picked' value='Two' />
                 Join As a Creative or Marketplace Seller I plan to submit name
                 ideas, Logo designs or sell names in Domain Marketplace.
+                </div>
+                
               </label>
               {/* <div>Picked: {values.picked}</div> */}
             </div>
+            <Field className={styles.fieldSubmitSignUp} type='submit' value='Create account' />
           </Form>
         );
       }}

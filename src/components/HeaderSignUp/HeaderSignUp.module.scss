@@ -1,10 +1,23 @@
+@import '../../common/styles/breakpoints';
+
 .containerHeaderSignUp {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  min-width: 1000px;
   height: 130px;
+  padding: 16px;
+
+  @media screen and (max-width: $lg) {
+    min-width: 750px;
+  }
+  @media screen and (max-width: $md) {
+    min-width: 550px;
+  }
+  @media screen and (max-width: $sm) {
+    min-width: 350px;
+  }
 }
 
 .linkHeaderSignUp {
