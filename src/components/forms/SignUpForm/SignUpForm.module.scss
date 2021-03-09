@@ -22,7 +22,7 @@
 }
 
 .fieldSubmitSignUp {
-  min-width: 516px;
+  min-width: 522px;
   padding: 24px;
   font-size: 14px;
   font-weight: 600;
@@ -36,12 +36,11 @@
 
 .radioButtonSignUp {
   border: 2px solid white;
-  max-width: 520px;
-  margin: 16px;
+  max-width: 522px;
+  margin-bottom: 12px;
   padding: 14px;
   @media screen and (max-width: $sm) {
     max-width: 320px;
     margin: 16px 0px;
-    
   }
 }

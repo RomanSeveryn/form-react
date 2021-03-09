@@ -18,15 +18,19 @@
 
 .errorMessage {
   position: absolute;
-  border: 2px solid red;
-  padding: 8px 58px;
   top: 72px;
   left: 0px;
+  padding: 2px 58px;
+  border: 2px solid red;
+  @media screen and (max-width: $sm) {
+    padding: 2px 88px;
+    text-align: center;
+  }
 }
 
 .label {
   position: relative;
-  margin-bottom: 42px;
+  margin-bottom: 55px;
 }
 
 .inputStyleSignIn {

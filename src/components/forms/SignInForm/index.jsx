@@ -3,6 +3,7 @@ import React from 'react';
 import { SIGN_IN_SCHEMA } from '../../../utils/validationShemas';
 import Input from '../Input';
 import styles from './SignInForm.module.scss';
+
 const initialsValues = {
   email: '',
   password: '',
